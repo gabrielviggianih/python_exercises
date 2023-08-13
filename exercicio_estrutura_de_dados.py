@@ -24,3 +24,26 @@
 # print(dominio)
 
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# area = float(input("Informa a area quadrada que deseja pintar: "))
+
+# volume_necessario = area / 3
+# quantidade_latas = int(volume_necessario / 18)
+# custo = quantidade_latas * 80
+
+# print(f"Voce precisara de {quantidade_latas} latas e vai gastar {custo} reais.")
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# valor_hora = float(input("Informe quanto ganha por hora: "))
+# horas_trabalhadas = float(input("Informe horas trabalhadas por mes: "))
+
+# salario = horas_trabalhadas * valor_hora
+# ir = salario * 0.11
+# inss = (salario - ir) * 0.08
+# sindicato = (salario - ir - inss) * 0.05
+# print(f"Salario Bruto: {salario}")
+# print(f"taxa ir: {ir}")
+# print(f"taxa inss: {inss}")
+# print(f"taxa sindicato: {sindicato}")
+# print(f"salario liquido: {salario - ir - inss - sindicato:.2f}")
