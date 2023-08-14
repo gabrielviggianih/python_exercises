@@ -1,3 +1,5 @@
+import os
+
 while True:
     print("0 - Soma")
     print("1 - Subtracao")
@@ -21,6 +23,9 @@ while True:
         print("Operacao nao encontrada.")
     questao = input("Deseja continuar usando a calculadora? 0 para SIM, 1 para NAO: ")
     if questao == "0":
+        os.system("clear")
         continue
     else:
         break
+    
+# -----------------------------------------------------------------------------------------------------------------
